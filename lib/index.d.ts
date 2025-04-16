@@ -1,4 +1,4 @@
-import {DriveItem, ItemPreviewInfo, Permission, ThumbnailSet} from "@microsoft/microsoft-graph-types";
+import type {DriveItem, ItemPreviewInfo, Permission, ThumbnailSet} from "@microsoft/microsoft-graph-types";
 
 declare namespace oneDriveAPI {
   type DriveSpecification = {drive?: "me", driveId?: "" | "me"} | {drive: "user" | "drive" | "group" | "site", driveId: string};
